@@ -194,6 +194,7 @@ Module type items:\\
 \verb!  |! \emph{pattern} \verb!->! \emph{action}\\
 \verb!  |! \emph{pattern} \verb!when! \emph{guard} \verb!->! \emph{action}
 & conditional case \\
+\verb!  | exception! \emph{exn} \verb!->! \emph{action} & match exception \\
 \verb!  | _ ->! \emph{action} & default case\\
 \end{tabular}
 Patterns:\\
